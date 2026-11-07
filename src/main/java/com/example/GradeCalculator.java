@@ -22,10 +22,4 @@ public class GradeCalculator {
             return "Grade:F";
         }
     }
-
-    public static void main(String[] args) {
-        int marks = 80;
-        System.out.println("Result  : " + (isPass(marks) ? "PASS" : "FAIL"));
-        System.out.println(Grade(marks));
-    }
 }
